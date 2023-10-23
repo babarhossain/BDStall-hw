@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #bdfc8a;
+}
+
+nav{
+    
+    text-align: center;
+    border-bottom: 1px solid green;
+    background-color: #52c505;
+    width: 100%;
+    margin-top: 25px;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 15px 25px;
+    color: white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+    
+
+}
+
+nav ul li:hover > a{
+    color: white;
+    background: #ff9966;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ff5e62, #ff9966); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+/* submenu-01 */
+
+
+nav ul li .Computer{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+    
+
+
+}
+
+nav ul li .Computer li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Computer li{
+    display: block;
+}
+
+
+
+nav ul li .Computer li:hover > a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Computer{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Computer .Computer{
+    left: 100%;
+    top: 0;
+}
+
+
+/* submenu -02 */
+
+
+nav ul li .Electronics{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Electronics li{
+    display: block;
+}
+
+nav ul li .Electronics li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Electronics li:hover > a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Electronics{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Electronics .Electronics{
+    left: 100%;
+    top: 0;
+}
+
+/* submenu -03 */
+
+nav ul li .Security{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Security li{
+    display: block;
+}
+
+nav ul li .Security li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Security li:hover >a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Security{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Security .Security{
+    left: 100%;
+    top: 0;
+}
+
+/* submenu -04 */
+
+
+nav ul li .Travels{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+
+
+
+nav ul li .Travels li{
+    display: block;
+}
+
+nav ul li .Travels li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Travels li:hover a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover .Travels{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+/* submenu -05 */
+
+nav ul li .Health{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Health li{
+    display: block;
+}
+
+nav ul li .Health li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Health li:hover > a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Health{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Health .Health{
+    left: 100%;
+    top: 0;
+}
+
+
+/* submenu -06 */
+
+nav ul li .Car{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Car li{
+    display: block;
+}
+
+nav ul li .Car li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Car li:hover > a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Car{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Car .Car{
+    left: 100%;
+    top: 0;
+}
+
+/* submenu -07 */
+
+nav ul li .Furniture{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Furniture li{
+    display: block;
+}
+
+nav ul li .Furniture li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Furniture li:hover > a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover > .Furniture{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
+
+.Furniture .Furniture{
+    left: 100%;
+    top: 0;
+}
+
+
+/* submenu -08 */
+
+nav ul li .Real{
+    text-align: left;
+    border-top: 3px solid orangered;
+    width: 220px;
+    border: 1px solid #ccc;
+    position: absolute;
+    opacity: o;
+    visibility: hidden;
+    margin-top: 95px;
+    transition: 0.5s;
+    background: #232526;  
+    background: -webkit-linear-gradient(to bottom, #414345, #232526);  
+
+}
+
+nav ul li .Real li{
+    display: block;
+}
+
+nav ul li .Real li a{
+    border: 1px solid #ccc;
+}
+
+nav ul li .Real li:hover a{
+    background-color: green;
+    color: white;
+}
+
+nav ul li:hover .Real{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+}
